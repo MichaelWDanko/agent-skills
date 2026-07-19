@@ -1,0 +1,4 @@
+interface:
+  display_name: "GitHub Issue Creation"
+  short_description: "Create GitHub issues from local repo context"
+  default_prompt: "Use $github-issue-creation to resolve the target GitHub repo, apply github-issues.yml defaults, create the issue, and attach it to the configured GitHub Project when required."

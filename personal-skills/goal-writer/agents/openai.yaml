@@ -1,0 +1,4 @@
+interface:
+  display_name: "Goal Writer"
+  short_description: "Write one auditable agent goal"
+  default_prompt: "Use $goal-writer to turn this rough ask into one strong, portable goal prompt with clear success criteria, evidence, and review requirements."

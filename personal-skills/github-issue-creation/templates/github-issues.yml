@@ -1,0 +1,26 @@
+# GitHub issue creation defaults for this repo or workspace.
+# Copy this file to github-issues.yml and fill only the values that should apply here.
+
+# Default repository for issue creation. Use owner/repo.
+repository: null
+
+# Optional issue defaults. Leave empty unless these should apply to every issue.
+labels: []
+assignees: []
+milestone: null
+
+# Optional GitHub Project v2 attachment.
+# For https://github.com/users/octocat/projects/7, owner is octocat and number is 7.
+# For https://github.com/orgs/acme/projects/7, owner is acme and number is 7.
+project:
+  owner: null
+  number: null
+
+# Optional routing for parent folders that contain multiple git repositories.
+# Keys are words or domains to match in the request; values are owner/repo.
+routing: {}
+
+issue:
+  body_guidance: |
+    Keep the issue focused on one deliverable.
+    Include acceptance criteria when the request has enough detail.

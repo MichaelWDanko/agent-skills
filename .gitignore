@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Claude Code agent-specific state — not shared across agents or users
+.claude/worktrees/
+.claude/plans/
+.claude/memory/
+
+# Generated skill bundles — build artifacts produced by packager scripts.
+# Rebuild with the relevant packager rather than committing. Add new patterns
+# here as new packagers (targeting other providers/harnesses) are added.
+*.skill
+claude-skill-files/
+
+# Do not commit working directories for the cache.
+work-skills/jira-parent-cache/cache
+
+# Contains internal references (Google Docs, Intercom URLs) — keep out of public repo
+work-skills/passport-release-notes/

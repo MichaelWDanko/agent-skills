@@ -1,0 +1,32 @@
+# Environment and secrets
+.env
+.env.*
+*.secret
+*.secrets
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Logs
+*.log
+logs/
+
+# Runtime state
+state/
+*.lock
+*.pid
+
+# Generated outputs
+outputs/
+
+# Local databases and caches
+*.db
+*.sqlite
+*.sqlite3
+.cache/
+
+# macOS
+.DS_Store

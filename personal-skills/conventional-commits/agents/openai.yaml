@@ -1,0 +1,4 @@
+interface:
+  display_name: "Conventional Commits"
+  short_description: "Draft commit messages in Conventional Commits format"
+  default_prompt: "Use $conventional-commits to write or validate a commit message from the actual changes. Choose the best type and scope, keep the summary concise, and flag breaking changes only when they are real."
