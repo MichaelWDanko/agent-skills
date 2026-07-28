@@ -20,8 +20,7 @@ agent-skills/
 │   ├── skill_lib.py
 │   ├── link-skills-to-claude.py
 │   ├── link-skills-to-codex.py
-│   ├── generate-skill-files.py
-│   └── sync-skills-to-passport.py
+│   └── generate-skill-files.py
 └── AGENTS.md
 ```
 
@@ -37,6 +36,6 @@ python3 scripts/generate-skill-files.py
 
 The link scripts are safe to rerun. The generator writes local `.skill` bundles to `claude-skill-files/`, which Git ignores.
 
-`sync-skills-to-passport.py` is kept in both repositories so the shared tooling remains available on either side of the split. In this public repo, it copies the explicitly selected shared skills into a sibling `passport-skills` checkout.
+This repo does not push skills into `passport-skills`. The `passport-skills` repo pulls whitelisted skills from here on its own; see that repo's `scripts/sync-skills.py`.
 
 See `AGENTS.md` for authoring and packaging rules.
