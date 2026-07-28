@@ -3,8 +3,8 @@
 Link every skill in this repo into ~/.codex/skills as symlinks.
 
 Scope: the whole repo. Codex sees every skill discoverable under the repo root
-(work-skills/, personal-skills/, meeting-sync-work-skills/, etc.). Selection is
-location-based — every folder with a SKILL.md is linked. Drop a name into
+(skills/, etc.). Selection is location-based — every folder with a SKILL.md
+is linked. Drop a name into
 EXCLUDE to keep it out.
 
 Idempotent. Existing correct links are left alone; a pre-existing real file is

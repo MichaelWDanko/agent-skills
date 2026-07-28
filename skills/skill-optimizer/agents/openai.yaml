@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skill Optimizer"
+  short_description: "Review and optimize portable agent skills"
+  default_prompt: "Use $skill-optimizer to review this draft or existing skill for clear routing, lean context, deduplicated logic, and cross-vendor compatibility."

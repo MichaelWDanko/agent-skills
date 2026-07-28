@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Link personal-skills into ~/.claude/skills as symlinks.
+Link this repo's skills into ~/.claude/skills as symlinks.
 
-Scope: every skill under personal-skills/. Selection is location-based. Drop a
+Scope: every skill under skills/. Selection is location-based. Drop a
 name into EXCLUDE to keep a skill out.
 
 Idempotent. Existing correct links are left alone; a pre-existing real file is
@@ -18,7 +18,7 @@ from pathlib import Path
 
 import skill_lib
 
-SOURCE_ROOT = skill_lib.REPO_ROOT / "personal-skills"
+SOURCE_ROOT = skill_lib.REPO_ROOT / "skills"
 TARGET_DIR = Path.home() / ".claude" / "skills"
 
 EXCLUDE: set = set()

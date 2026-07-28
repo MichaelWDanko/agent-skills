@@ -159,8 +159,8 @@ Before finishing, review whether the automation introduces avoidable risk:
 ### 8. Save reusable project-building knowledge as a skill
 
 If the workflow produced a repeatable pattern, add or update a skill in:
-- `~/Projects/agent-skills/personal-skills/`, or
-- `~/Projects/agent-skills/work-skills/`
+- `~/Projects/agent-skills/skills/`, or
+- `~/Projects/pp-agent-skills/skills/`
 
 Choose the category based on the workflow domain, not where you happened to build it.
 
@@ -182,7 +182,7 @@ Before closing the task, verify:
 - `.gitignore` exists if runtime state or generated files exist
 - no secrets or sensitive data were committed
 - the repo would not obviously leak credentials or private data if pushed public
-- any reusable workflow knowledge was saved under `personal-skills` or `work-skills`
+- any reusable workflow knowledge was saved under `agent-skills/skills` or `pp-agent-skills/skills`
 
 ## Templates
 

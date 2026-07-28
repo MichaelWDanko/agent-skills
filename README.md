@@ -1,6 +1,6 @@
 # agent-skills
 
-Open-source, reusable AI agent skills. Each skill lives in `personal-skills/` with a portable `SKILL.md` and any files it needs.
+Open-source, reusable AI agent skills. Each skill lives in `skills/` with a portable `SKILL.md` and any files it needs.
 
 This repository contains no Passport-only skills. Those remain in the private `pp-agent-skills` repository, which keeps the original commit history.
 
@@ -8,7 +8,7 @@ This repository contains no Passport-only skills. Those remain in the private `p
 
 ```text
 agent-skills/
-├── personal-skills/
+├── skills/
 │   └── <skill-name>/
 │       ├── SKILL.md
 │       ├── agents/       (optional)

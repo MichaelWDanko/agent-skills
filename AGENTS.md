@@ -4,7 +4,7 @@ This repository is the public source of truth for reusable personal agent skills
 
 ## Skill layout
 
-Place each skill at `personal-skills/<skill-name>/`. The folder must contain `SKILL.md`; supporting files may live in `agents/`, `assets/`, `references/`, `scripts/`, or `templates/`.
+Place each skill at `skills/<skill-name>/`. The folder must contain `SKILL.md`; supporting files may live in `agents/`, `assets/`, `references/`, `scripts/`, or `templates/`.
 
 The folder name must be kebab-case and match the `name:` field in `SKILL.md`.
 

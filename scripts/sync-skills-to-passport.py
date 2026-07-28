@@ -25,7 +25,7 @@ from pathlib import Path
 
 import skill_lib
 
-SOURCE_ROOT = skill_lib.REPO_ROOT / "personal-skills"
+SOURCE_ROOT = skill_lib.REPO_ROOT / "skills"
 PASSPORT_SKILLS_ROOT = skill_lib.REPO_ROOT.parent / "passport-skills"
 SKILLS_DEST_DIR = PASSPORT_SKILLS_ROOT / "skills"
 OUTPUT_DIR = PASSPORT_SKILLS_ROOT / "claude-skill-files"

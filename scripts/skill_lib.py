@@ -505,7 +505,8 @@ def link_skills_from_list(skills: list, target_dir: Path) -> dict:
 
     Same behaviour as link_skills but accepts an explicit list instead of
     discovering from a source root. Use this when the caller needs to merge
-    skills from multiple source roots (e.g. work-skills plus personal-skills).
+    skills from multiple source roots (e.g. this repo's skills/ plus an
+    approved skill from a sibling repo).
 
     Idempotent and safe to rerun. Prunes stale symlinks pointing back into
     this repo that are no longer in the provided list.
