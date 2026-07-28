@@ -3,11 +3,13 @@
 Open-source, reusable AI agent skills. Each skill lives in `skills/` with a portable `SKILL.md` and any files it needs.
 
 This repository contains no Passport-only skills. Those remain in the private `pp-agent-skills` repository, which keeps the original commit history.
+The `meeting-sync-work-skills` directory is intended to capture skills unique to the Hermes developed workflow
 
 ## Layout
 
 ```text
 agent-skills/
+├── meeting-sync-work-skills/
 ├── skills/
 │   └── <skill-name>/
 │       ├── SKILL.md
@@ -35,7 +37,5 @@ python3 scripts/generate-skill-files.py
 ```
 
 The link scripts are safe to rerun. The generator writes local `.skill` bundles to `claude-skill-files/`, which Git ignores.
-
-This repo does not push skills into `passport-skills`. The `passport-skills` repo pulls whitelisted skills from here on its own; see that repo's `scripts/sync-skills.py`.
 
 See `AGENTS.md` for authoring and packaging rules.
